@@ -1,4 +1,4 @@
-[<img align="right" width="250" height="395" src="resources/nust.svg"/>]()
+[<img align="right" width="250" src="resources/nust.svg"/>]()
 
 # NUST – EE Repository
 
