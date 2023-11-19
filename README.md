@@ -19,3 +19,7 @@ We express our sincere gratitude to the instructors and professors at NUST – S
 We also extend our appreciation to the NUST – SEECS community for fostering a collaborative and supportive learning environment. The exchange of ideas and knowledge among fellow students has been a crucial aspect of our academic growth.
 
 This repository is dedicated to the advancement of electrical engineering education and the pursuit of excellence in the field. We hope it serves as a valuable resource for students, researchers, and enthusiasts alike.
+
+## Contact ✉️
+
+If there is any issue on the distribution of coursework materials, you may reach out to me at [thisismumer@gmail.com](mailto:thisismumer@gmail.com?Subject=Hello%20User).
