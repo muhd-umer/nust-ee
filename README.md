@@ -4,15 +4,15 @@
 
 This repository hosts a comprehensive collection of coursework materials from six out of eight (and continuously growing) semesters pursued under the **Bachelor's of Electrical Engineering** program at the esteemed [NUST School of Electrical Engineering and Computer Science (NUST – SEECS)](https://seecs.nust.edu.pk/). The repository aims to provide a valuable resource for students and enthusiasts seeking to delve into the intricacies of electrical engineering concepts and applications.
 
-## Repository Layout
+## Layout 📑
 
 The repository is structured to facilitate easy navigation and access to specific course materials. Each semester's coursework is organized into a dedicated subdirectory, further divided into individual course folders. Within each course folder, you'll find relevant assignments, projects, presentations, and supplementary learning materials.
 
-## Contributions
+## Contributions 📖
 
-We encourage contributions from fellow students and electrical engineering enthusiasts to expand the repository's scope and enhance its value. If you possess coursework materials from semesters not currently included, please consider submitting a pull request to integrate them into the repository. Your contributions will enrich the learning experience for others.
+We encourage contributions from fellow students and electrical engineering enthusiasts to expand the repository's scope and enhance its value. _If you possess coursework materials from semesters not currently included, please consider submitting a pull request to integrate them into the repository. Your contributions will enrich the learning experience for others._
 
-## Acknowledgements
+## Acknowledgements ❤️
 
 We express our sincere gratitude to the instructors and professors at NUST – SEECS for their invaluable guidance and mentorship throughout our academic journey. Their expertise and dedication have been instrumental in shaping our understanding of electrical engineering principles.
 
