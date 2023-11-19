@@ -1,4 +1,4 @@
-# NUST – Electrical Engineering Repository
+# NUST – EE Repository
 
 This repository hosts a comprehensive collection of coursework materials from six out of eight (and continuously growing) semesters pursued under the **Bachelor's of Electrical Engineering** program at the esteemed [NUST School of Electrical Engineering and Computer Science (NUST – SEECS)](https://seecs.nust.edu.pk/). The repository aims to provide a valuable resource for students and enthusiasts seeking to delve into the intricacies of electrical engineering concepts and applications.
 
