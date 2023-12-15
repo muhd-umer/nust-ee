@@ -1,4 +1,6 @@
-[<img align="right" width="230" height="260" src="resources/nust.svg"/>](https://nust.edu.pk/)
+<p align="center">
+  <img width="230" height="260" src="resources/nust.svg"/> &nbsp;&nbsp;&nbsp;&nbsp; <img width="230" height="230" src="resources/seecs.png"/>
+</p>
 
 # NUST – EE Repository
 
