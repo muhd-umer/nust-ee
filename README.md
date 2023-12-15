@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="230" height="260" src="resources/nust.svg"/> &nbsp;&nbsp;&nbsp;&nbsp; <img width="230" height="230" src="resources/seecs.png"/>
+  <img width="200" height="200" src="resources/nust.svg"/> &nbsp;&nbsp;&nbsp;&nbsp; <img width="200" height="200" src="resources/seecs.png"/>
 </p>
 
 # NUST – EE Repository
