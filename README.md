@@ -1,10 +1,10 @@
 <p align="center">
-  <img width="200" height="200" src="resources/nust.svg"/> &nbsp;&nbsp;&nbsp;&nbsp; <img width="200" height="200" src="resources/seecs.png"/>
+  <a href="https://nust.edu.pk/"><img width="200" height="200" src="resources/nust.svg"/></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://seecs.nust.edu.pk/"><img width="200" height="200" src="resources/seecs.png"/></a>
 </p>
 
 # NUST – EE Repository
 
-This repository hosts a comprehensive collection of coursework materials from six out of eight (and continuously growing) semesters pursued under the **Bachelor's of Electrical Engineering** program at the esteemed <a href="https://seecs.nust.edu.pk/"> NUST School of Electrical Engineering and Computer Science (NUST – SEECS)</a>. The repository aims to provide a valuable resource for students and enthusiasts seeking to delve into the intricacies of electrical engineering concepts and applications.
+This repository hosts a comprehensive collection of coursework materials from six out of eight (and continuously growing) semesters pursued under the **Bachelor of Engineering** program at the esteemed <a href="https://seecs.nust.edu.pk/"> NUST School of Electrical Engineering and Computer Science (NUST – SEECS)</a>. The repository aims to provide a valuable resource for students and enthusiasts seeking to delve into the intricacies of electrical engineering concepts and applications.
 
 ## Layout 📑
 
