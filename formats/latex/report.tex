@@ -1,0 +1,147 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{float}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{custom}
+\usepackage[font=small,skip=4pt]{caption}
+\usepackage{chngcntr,tocloft}
+
+\counterwithin*{figure}{section}
+\counterwithin*{figure}{subsection}
+\counterwithin*{figure}{subsubsection}
+
+\addtolength{\cftfignumwidth}{2em}
+
+
+\renewcommand{\thefigure}{%
+  \ifnum\value{subsection}=0
+    \thesection.\arabic{figure}%
+  \else
+    \ifnum\value{subsubsection}=0
+      \thesubsection.\arabic{figure}%
+    \else
+      \thesubsubsection.\arabic{figure}%
+    \fi
+  \fi
+}
+
+\renewcommand{\lstlistingname}{Code}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.9725,0.9725,0.9725}
+
+\lstdefinestyle{mystyle}{
+backgroundcolor=\color{backcolour},   
+commentstyle=\color{codegreen},
+keywordstyle=\color{magenta},
+% numberstyle=\tiny\color{codegray},
+stringstyle=\color{codepurple},
+basicstyle=\ttfamily\footnotesize,
+breakatwhitespace=false,         
+breaklines=true,                 
+captionpos=t,                    
+keepspaces=true,                 
+% numbers=left,                    
+% numbersep=5pt,                  
+showspaces=false,                
+showstringspaces=false,
+showtabs=false,                  
+tabsize=2,
+frame=tb,
+framexleftmargin=2mm,
+xleftmargin=2mm,
+framexrightmargin=2mm,
+xrightmargin=2mm,
+% rulecolor=\color{black},
+upquote=true,
+aboveskip=3mm,
+belowskip=3mm
+}
+
+\lstset{style=mystyle}
+
+\parindent 0pt
+
+\geometry{left=0.75in, right=0.75in, top=1in, bottom=1in}
+\renewcommand{\contentsname}{Contents}
+
+\renewcommand{\baselinestretch}{1.25}
+\renewcommand{\contentsname}{Contents}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\usepackage{enumitem}
+
+\usepackage{cleveref}
+\crefname{section}{\S}{\S\S}
+\Crefname{section}{\S}{\S\S}
+\crefname{subsection}{\S}{\S\S}
+\Crefname{subsection}{\S}{\S\S}
+
+\begin{document}
+
+% Titlepage
+\newpage
+\begin{titlepage}
+    \vspace*{\fill} % add vertical space before content
+    \centering
+    \huge{\textbf{ABXXX - Course Name}} \\ [0.75cm]
+    \huge{Semester} \\
+    \huge{Assignment X} \\ [0.75cm]
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{nust.pdf}
+    \end{figure}
+    \vspace {0.75cm}
+    \Large{By} \\
+    \Large{\textbf{Muhammad Umer}\quad(CMS -- 345834)} \\ [0.75cm]
+    \Large{Instructor} \\
+    \Large{\textbf{Instructor Name}} \\[0.75cm]
+    \Large{School of Electrical Engineering and Computer Science (SEECS) \\
+        National University of Sciences and Technology (NUST) \\
+        Islamabad, Pakistan} \\ [0.75cm]
+    \Large{\today} % date is automatically inserted
+    \vspace*{\fill} % add vertical space after content
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+\setcounter{page}{1}
+\section{Introduction}
+General introduction \& overview of the assignment.
+
+\subsection*{Deliverables}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Deliverables 1:} \textit{\\Deliverables description}
+\end{enumerate}
+
+\subsection*{Copying}
+Copying is highly discouraged and it will lead to a significant loss  (90-95 \%) of marks.
+
+\textit{*Copying includes using sentences, variables, code, formats from others. Discussion is appreciated, but attempt the tasks on your own (which would make it look original).}
+
+\newpage
+\section{Section 1}
+\subsection{Subsection 1}
+\subsubsection{Subsubsection 1}
+
+\newpage
+\section{Section 2}
+\subsection{Subsection 2}
+\subsubsection{Subsubsection 2}
+
+\end{document}
