@@ -6,8 +6,7 @@
 
 This repository hosts a comprehensive collection of coursework materials from seven out of eight (and growing) semesters pursued under the **Bachelor of Engineering** program at the esteemed <a href="https://seecs.nust.edu.pk/"> NUST School of Electrical Engineering and Computer Science (NUST – SEECS)</a>. The repository aims to provide a valuable resource for students and enthusiasts seeking to delve into the intricacies of electrical engineering concepts and applications.
 
-> ### Disclaimer
-> Please note that this repository does not contain any textbooks or other copyrighted materials. The distribution of such materials without the consent of the authors or publishers is illegal. We strongly encourage students to purchase or legally access any textbooks or materials recommended by their instructors.
+> **Please note that this repository does not contain any textbooks or other copyrighted materials. The distribution of such materials without the consent of the authors or publishers is illegal. We strongly encourage students to purchase or legally access any textbooks or materials recommended by their instructors.**
 
 ### Layout
 
