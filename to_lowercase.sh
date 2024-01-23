@@ -1,6 +1,6 @@
 #!/bin/bash
+
 # Rename all directories. This will need to be done first.
-# Process each directorys contents before the directory itself
 find * -depth -type d | while read x
 do
         # Translate Caps to Small letters
