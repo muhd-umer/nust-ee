@@ -64,7 +64,7 @@ The following is a high-level overview of the repository's layout:
 ### Download
 To get access to all the coursework, simply clone the repoistory using the following command.
 
-```fish
+```powershell
 git clone https://github.com/muhd-umer/nust-ee.git
 ```
 
