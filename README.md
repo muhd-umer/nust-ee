@@ -10,6 +10,57 @@ This repository hosts a comprehensive collection of coursework materials from se
 ### Layout
 The repository is structured to facilitate easy navigation and access to specific course materials. Each semester's coursework is organized into a dedicated subdirectory, further divided into individual course folders. Within each course folder, you'll find relevant assignments, projects, presentations, and supplementary learning materials.
 
+The following is a high-level overview of the repository's layout:
+
+```powershell
+. nust-ee
+├── formats/
+├── resources/
+├── semester_1
+│   ├── applied_physics/
+│   ├── calculus/
+│   ├── english/
+│   ├── fundamentals_of_programming/
+│   ├── islamic_studies/
+│   └── linear_circuit_analysis/
+├── semester_2
+│   ├── communication_skills/
+│   ├── electric_network_analysis/
+│   ├── engineering_drawing/
+│   ├── engineering_mechanics/
+│   ├── linear_algebra/
+│   └── pakistan_studies/
+├── semester_3
+│   ├── digital_logic_design/
+│   ├── object_oriented_programming/
+│   ├── technical_and_business_writing/
+│   ├── thermodynamics/
+│   └── vector_calculus/
+├── semester_4
+│   ├── complex_variables_and_transforms/
+│   ├── electromagnetic_field_theory/
+│   ├── electronic_devices_and_circuits/
+│   ├── engineering_economics/
+│   └── microprocessor_systems/
+├── semester_5
+│   ├── electrical_machines/
+│   ├── electronic_circuit_design/
+│   ├── instrumentation_and_measurements/
+│   ├── probability_and_statistics/
+│   └── signals_and_systems/
+├── semester_6
+│   ├── communication_systems/
+│   ├── digital_signal_processing/
+│   ├── digital_system_design/
+│   ├── linear_control_systems/
+│   └── numerical_methods/
+└── semester_7
+    ├── computer_vision/
+    ├── machine_learning/
+    ├── mobile_communications/
+    └── project_management/
+```
+
 ### Download
 To get access to all the coursework, simply clone the repoistory using the following command.
 
