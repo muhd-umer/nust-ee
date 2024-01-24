@@ -1,0 +1,100 @@
+A51 MACRO ASSEMBLER  CODE                                                                 05/28/2022 11:54:39 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\Code.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE Code.a51 SET(SMALL) DEBUG PRINT(.\Listings\Code.lst) OBJECT(.\Objects\C
+                      ode.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2             ORG     000H    ;initial starting address
+0000 900038            3             MOV     DPTR,#CC_PATTERNS ;  loads  the  adress  Lookup Table
+                       4             
+0003 759000            5             MOV     P1, #0H
+0006 75B000            6             MOV     P3, #0H
+                       7     
+                       8     
+0009 7400              9     START:  MOV     A,#00H  ; initial value of accumulator
+000B F5F0             10             MOV     B,A
+000D 780A             11             MOV     R0,#0AH ;Register R0 initialized as counter which counts from 10 to 0
+000F                  12     LOOP: 
+000F E5F0             13             MOV     A,B
+0011 04               14             INC     A
+0012 F5F0             15             MOV     B,A
+0014 1136             16             ACALL   DISPLAY ;
+0016 F5A0             17             MOV     P2,A
+0018 1120             18             ACALL   DELAY1  ; calls the delay of the timer
+001A 18               19             DEC     R0      ;Counter R0 decremented by 1
+001B E8               20             MOV     A,R0    ; R0 moved to accumulator to check if it is zero in next instructio
+                             n.
+001C 60EB             21             JZ      START   ;Checks accumulator for zero and jumps to START. Done to check if c
+                             ounting has been finished.
+001E 80EF             22             SJMP    LOOP
+                      23     
+0020                  24     DELAY1:
+0020 7DFA             25             MOV     R5, #250D
+0022                  26     LABEL:   
+0022 112D             27             ACALL   DELAY   
+0024 112D             28             ACALL   DELAY
+                      29            
+0026 112D             30             ACALL   DELAY
+                      31            
+0028 112D             32             ACALL   DELAY
+                      33            
+002A DDF6             34             DJNZ    R5,LABEL
+                      35            
+002C 22               36             RET
+002D                  37     DELAY:
+002D 7EFA             38             MOV     R6,#250D
+                      39           
+002F 7FFA             40             MOV     R7,#250D
+0031                  41     LABEL1:
+0031 DEFE             42             DJNZ    R6,LABEL1
+0033 DFFE             43     LABEL2: DJNZ    R7,LABEL2
+0035 22               44             RET
+                      45      
+                      46     
+                      47     
+                      48     
+0036                  49     DISPLAY:
+0036 83               50             MOVC    A,@A+PC ;  adds  the  byte  in A to  the  address  in DPTR and  loads A wit
+                             h  data  present  in  the  r e s u l t a n t  address
+0037 22               51             RET
+                      52     
+0038                  53     CC_PATTERNS: 
+0038 3F065B4F         54     DB 3FH, 06H, 5BH, 4FH, 66H, 6DH, 7DH, 07H, 7FH, 6FH, 0  
+A51 MACRO ASSEMBLER  CODE                                                                 05/28/2022 11:54:39 PAGE     2
+
+003C 666D7D07                
+0040 7F6F00                  
+                      55     
+                      56             END
+A51 MACRO ASSEMBLER  CODE                                                                 05/28/2022 11:54:39 PAGE     3
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+CC_PATTERNS. . . .  C ADDR   0038H   A   
+DELAY. . . . . . .  C ADDR   002DH   A   
+DELAY1 . . . . . .  C ADDR   0020H   A   
+DISPLAY. . . . . .  C ADDR   0036H   A   
+LABEL. . . . . . .  C ADDR   0022H   A   
+LABEL1 . . . . . .  C ADDR   0031H   A   
+LABEL2 . . . . . .  C ADDR   0033H   A   
+LOOP . . . . . . .  C ADDR   000FH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+START. . . . . . .  C ADDR   0009H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

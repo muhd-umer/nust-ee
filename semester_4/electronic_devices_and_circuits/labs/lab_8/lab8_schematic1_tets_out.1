@@ -1,0 +1,50 @@
+
+**** 04/21/22 16:57:10 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Tets"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 8\lab8-SCHEMATIC1-Tets.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab8-SCHEMATIC1-Tets.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab8-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab8-SCHEMATIC1.net ****
+* source LAB8
+R_R1         N00302 N00252  33k  
+C_C3         N00363 0  100u  
+R_R2         0 N00302  10k  
+R_R3         N00425 N00252  3k  
+Q_Q1         N00425 N00302 N00363 Q2N2222
+V_V2         N01372 M_UN0001  
++SIN 0 50m 1k 0 0 0
+R_R4         0 N00363  1k  
+C_C1         N01372 N00302  0.22u  
+V_V1         N00252 0 10V
+C_C2         N00425 M_UN0002  0.22u  
+** Floating/unmodeled pin fixups **
+R__UC0001   M_UN0002  0   {1/GMIN}
+
+**** RESUMING lab8-SCHEMATIC1-Tets.sim.cir ****
+.END
+
+ERROR -- Node N01372 is floating
+ERROR -- Node M_UN0001 is floating

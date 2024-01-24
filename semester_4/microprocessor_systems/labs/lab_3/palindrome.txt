@@ -1,0 +1,38 @@
+.ORG 0x00
+
+LDI R16,'R'
+STS 0x200,R16
+
+LDI R16,'A'
+STS 0x201,R16
+
+LDI R16,'C'
+STS 0x202,R16
+
+LDI R16,'E'
+STS 0x203,R16
+
+LDI R16,'C'
+STS 0x204,R16
+
+LDI R16,'A'
+STS 0x205,R16
+
+LDI R16,'R'
+STS 0x206,R16
+
+CALL CHECKPALINDROME
+
+Here: 
+	RJMP Here
+
+.ORG 0x50
+
+;− − − − − Your Code Here− − − − − −
+CHECKPALINDROME:
+
+
+
+
+
+;− − − − − − − − − − − − − − − − − 

@@ -1,0 +1,16 @@
+** Profile: "SCHEMATIC1-m"  [ D:\NUST\Semester 4\Electronic Devices and Circuits\Labs\Lab 3\main-schematic1-m.sim ] 
+
+** Creating circuit file "main-schematic1-m.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\main-SCHEMATIC1.net" 
+
+
+.END

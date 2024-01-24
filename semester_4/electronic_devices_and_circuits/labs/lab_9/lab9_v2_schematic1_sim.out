@@ -1,0 +1,123 @@
+
+**** 05/02/22 18:09:41 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 9\lab9-v2-schematic1-sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab9-v2-schematic1-sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 0.00001 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab9-v2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab9-v2-SCHEMATIC1.net ****
+* source LAB9-V2
+R_R1         N00302 N00252  33k  
+R_R2         0 N00302  8k  
+R_R3         N00425 N00252  1.8k  
+C_C6         N00425 N09143  15u  
+Q_Q1         N00425 N00302 N00363 Q2N2222
+R_R4         0 N00363  1k  
+C_C2         0 N00302  100u  
+V_V2         N08223 0  
++SIN 0 10m 1k 0 0 0
+R_R5         N09143 0  1k  
+V_V1         N00252 0 20V
+C_C4         N00363 N08223  15u  
+
+**** RESUMING lab9-v2-schematic1-sim.sim.cir ****
+.END
+
+**** 05/02/22 18:09:41 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 9\lab9-v2-schematic1-sim.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N2222         
+               NPN             
+          IS   14.340000E-15 
+          BF  255.9          
+          NF    1            
+         VAF   74.03         
+         IKF     .2847       
+         ISE   14.340000E-15 
+          NE    1.307        
+          BR    6.092        
+          NR    1            
+          RB   10            
+          RC    1            
+         CJE   22.010000E-12 
+         MJE     .377        
+         CJC    7.306000E-12 
+         MJC     .3416       
+          TF  411.100000E-12 
+         XTF    3            
+         VTF    1.7          
+         ITF     .6          
+          TR   46.910000E-09 
+         XTB    1.5          
+          CN    2.42         
+           D     .87         
+
+
+**** 05/02/22 18:09:41 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 9\lab9-v2-schematic1-sim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00252)   20.0000 (N00302)    3.7939 (N00363)    3.1219 (N00425)   14.4110     
+
+(N08223)    0.0000 (N09143)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         0.000E+00
+    V_V1        -3.596E-03
+
+    TOTAL POWER DISSIPATION   7.19E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .06
+

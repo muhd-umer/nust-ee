@@ -1,0 +1,7 @@
+* source LAB1
+R_R1         N00364 N00402  10k  
+R_R2         0 N00402  10k  
+I_I1         0 N00402 DC 1mA  
+C_C1         0 N00402  5uF  
+V_V1         N00364 0  
++SIN 0 10 10Hz 0 0 0

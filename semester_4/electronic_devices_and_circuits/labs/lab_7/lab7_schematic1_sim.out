@@ -1,0 +1,103 @@
+
+**** 04/13/22 22:38:14 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 7\lab7-SCHEMATIC1-Sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab7-SCHEMATIC1-Sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 25ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab7-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab7-SCHEMATIC1.net ****
+* source LAB7
+C_C1         N00163 N00217  1u  
+C_C3         0 N03609  1u  
+D_D1         N00217 0 D1N4002 
+C_C4         N00217 N03579  1u  
+D_D4         N03609 N00217 D1N4002 
+D_D5         N03579 N03609 D1N4002 
+V_V2         N00163 0  
++SIN 0 3V 1k 0 0 0
+
+**** RESUMING lab7-SCHEMATIC1-Sim.sim.cir ****
+.END
+
+**** 04/13/22 22:38:14 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 7\lab7-SCHEMATIC1-Sim.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4002         
+          IS   14.110000E-09 
+           N    1.984        
+         ISR  100.000000E-12 
+         IKF   94.81         
+          BV  100.1          
+         IBV   10            
+          RS     .03389      
+          TT    4.761000E-06 
+         CJO   51.170000E-12 
+          VJ     .3905       
+           M     .2762       
+
+
+**** 04/13/22 22:38:14 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 7\lab7-SCHEMATIC1-Sim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00163)    0.0000 (N00217) 86.73E-15 (N03579) 260.2E-15 (N03609) 173.4E-15 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .05
+

@@ -1,0 +1,74 @@
+
+**** 02/03/22 22:51:34 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC3-task3"  [ D:\NUST\Semester 4\Electronic Devices and Circuits\Labs\Lab 1\lab1-SCHEMATIC3-task3.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab1-SCHEMATIC3-task3.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab1-SCHEMATIC3.net" 
+
+
+
+**** INCLUDING lab1-SCHEMATIC3.net ****
+* source LAB1
+R_R1         N00364 N00402  10k  
+R_R2         0 N00402  10k  
+I_I1         0 N00402 DC 1mA  
+C_C1         0 N00402  5uF  
+V_V1         N00364 0  
++SIN 0 10 10Hz 0 0 0
+
+**** RESUMING lab1-SCHEMATIC3-task3.sim.cir ****
+.END
+
+**** 02/03/22 22:51:34 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC3-task3"  [ D:\NUST\Semester 4\Electronic Devices and Circuits\Labs\Lab 1\lab1-SCHEMATIC3-task3.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00364)    0.0000 (N00402)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         5.000E-04
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

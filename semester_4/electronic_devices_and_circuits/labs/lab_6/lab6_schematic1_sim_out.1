@@ -1,0 +1,49 @@
+
+**** 04/11/22 19:45:23 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-sim"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 6\lab6-schematic1-sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab6-schematic1-sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V2 0 30 0.05 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab6-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING lab6-SCHEMATIC1.net ****
+* source LAB6
+Q_Q1         N00286 N00257 0 Q2N3904
+R_R2         N00227 N00257  2.2  
+R_R1         N00286 N00315  220  
+V_V1         N00227 0 0V
+R_R3         N02732 N02762  10k  
+V_V2         N00315 0 0V
+R_R4         N02732 N02625  10k  
+R_R5         N02762 N02625  10k  
+R_R6         N02698 N02762  10k  
+V_V3         N02625 N02698 5
+
+**** RESUMING lab6-schematic1-sim.sim.cir ****
+.END
+
+ERROR -- Node N02732 is floating
+ERROR -- Node N02762 is floating
+ERROR -- Node N02625 is floating
+ERROR -- Node N02698 is floating

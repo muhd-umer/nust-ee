@@ -1,0 +1,7 @@
+* source LAB1
+V_V1         N00223 0 5V
+R_R1         N00223 N00253  1k  
+R_R2         N00253 N00344  3MEG  
+R_R3         0 N00344  100k  
+C_C1         0 N00253  1uF  
+I_I1         0 N00253 DC 1mA  

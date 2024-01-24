@@ -1,0 +1,6 @@
+* source MAIN
+V_V1         N00225 0 2
+R_R1         N00137 N00175  1k  
+R_R2         0 N00175  1k  
+D_D1         N00175 N00225 D1N4002 
+V_V3         N00137 0 0Vdc

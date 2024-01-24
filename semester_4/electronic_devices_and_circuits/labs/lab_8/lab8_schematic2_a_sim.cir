@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC2-A"  [ D:\NUST\SEMESTER 4\ELECTRONIC DEVICES AND CIRCUITS\LABS\Lab 8\lab8-schematic2-a.sim ] 
+
+** Creating circuit file "lab8-schematic2-a.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 0.00001 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab8-SCHEMATIC2.net" 
+
+
+.END
