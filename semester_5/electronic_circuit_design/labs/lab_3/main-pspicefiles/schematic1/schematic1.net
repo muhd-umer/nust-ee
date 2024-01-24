@@ -1,0 +1,17 @@
+* source MAIN
+Q_Q1         N00419 N00557 N00533 QbreakN 
+Q_Q2         N00380 N00343 N00419 QbreakN 
+R_R1         N00380 N00331  1.8k TC=0,0 
+R_R2         N00343 N00331  6.8k TC=0,0 
+R_R3         N00557 N00343  5.6k TC=0,0 
+R_R4         0 N00557  4k TC=0,0 
+R_R5         0 N00533  1.1k TC=0,0 
+C_C1         N00533 0  20u  TC=0,0 
+C_C2         N00718 N00557  5u  TC=0,0 
+C_C3         N00380 M_UN0001  5u  TC=0,0 
+V_V1         N00718 0  
++SIN 0 10m 1k 0 0 0
+C_C4         0 N00343  10u  TC=0,0 
+V_V2         N00331 0 18
+** Floating/unmodeled pin fixups **
+R__UC0001   M_UN0001  0   {1/GMIN}

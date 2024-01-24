@@ -1,0 +1,14 @@
+S = 50 * 746; % nominal power
+Vs = 460; % Stator voltage
+f = 50; % Supply frequency
+Rs = 0.6; % Stator resistance
+Rr = 0.5; % Rotor resistance
+Lls = 0.001; % Stator inductance
+Llr = 0.001; % Rotor inductance
+Lm = 0.05;
+P = 4; % Number of Poles
+Tr = (Llr + Lm) / Rr; % Time constant
+J = 0.8; % Inertia
+F = 0.05; % Friction factor
+Ls = Lls + Lm;
+Lr = Llr + Lm;

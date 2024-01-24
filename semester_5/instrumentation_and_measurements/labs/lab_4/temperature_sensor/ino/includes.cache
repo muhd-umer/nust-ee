@@ -1,0 +1,52 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "d:\\NUST\\Semester 5\\Instrumentation and Measurements\\Labs\\Lab 4\\Temperature Sensor\\INO\\sketch\\main_sensor.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\DHT_sensor_library"
+  },
+  {
+    "Sourcefile": "d:\\NUST\\Semester 5\\Instrumentation and Measurements\\Labs\\Lab 4\\Temperature Sensor\\INO\\sketch\\main_sensor.ino.cpp",
+    "Include": "LiquidCrystal.h",
+    "Includepath": "D:\\Arduino\\libraries\\LiquidCrystal\\src"
+  },
+  {
+    "Sourcefile": "d:\\NUST\\Semester 5\\Instrumentation and Measurements\\Labs\\Lab 4\\Temperature Sensor\\INO\\sketch\\main_sensor.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\DHT_sensor_library\\DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\libraries\\LiquidCrystal\\src\\LiquidCrystal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Zonularity\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

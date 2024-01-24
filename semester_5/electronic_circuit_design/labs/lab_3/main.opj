@@ -1,0 +1,92 @@
+(ExpressProject "main"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2022 S008-[09/27/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\main.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Display_Online_DRC_Results "FALSE")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\main-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\main-pspicefiles\schematic1\sim.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\main-pspicefiles\schematic1\sim.sim"
+        (DisplayName "SCHEMATIC1-Sim")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (QbreakN
+      (FullPartName "QbreakN.Normal")
+      (LibraryName "D:\PSPICETI\MAIN\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Zonularity")
+  (LastUsedLibraryBrowseDirectory
+     "D:\PSpiceTI\Main\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main.dsn")
+      (Path "Design Resources"
+         "D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 911"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 929")
+        (Scroll "43 47")
+        (Zoom "196")
+        (Occurrence "/"))
+      (Path "D:\NUST\SEMESTER 5\ELECTRONIC CIRCUIT DESIGN\LABS\LAB 3\MAIN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")
+      (Package "[    1]invalid command name "OrSymbolEditor")
+      (PartType """))))

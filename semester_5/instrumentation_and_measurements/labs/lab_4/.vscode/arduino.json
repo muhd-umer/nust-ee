@@ -1,0 +1,7 @@
+{
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "programmer": "arduino:avrisp",
+    "output": ".\\Temperature Sensor\\INO",
+    "sketch": "main_sensor.ino"
+}

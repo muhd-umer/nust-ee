@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Main\Schematic.PrjPcb
+[Project2]
+ProjectPath=..\..\..\..\..\Program Files (x86)\Shared\Altium\Library\Imported LCD-16X2.lia\LCD-16X2.LibPkg

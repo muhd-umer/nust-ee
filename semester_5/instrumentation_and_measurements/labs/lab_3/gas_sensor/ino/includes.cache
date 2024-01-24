@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "d:\\NUST\\Semester 5\\Instrumentation and Measurements\\Labs\\Lab 3\\Gas Sensor\\INO\\sketch\\gas_sensor.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

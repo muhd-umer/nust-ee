@@ -1,0 +1,142 @@
+
+**** 09/27/22 01:14:05 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\PSpiceTI\CDS_Home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.006 0 0.000001 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MAIN
+Q_Q1         N00419 N00557 N00533 QbreakN 
+Q_Q2         N00380 N00343 N00419 QbreakN 
+R_R1         N00380 N00331  1.8k TC=0,0 
+R_R2         N00343 N00331  6.8k TC=0,0 
+R_R3         N00557 N00343  5.6k TC=0,0 
+R_R4         0 N00557  4k TC=0,0 
+R_R5         0 N00533  1.1k TC=0,0 
+C_C1         N00533 0  20u  TC=0,0 
+C_C2         N00718 N00557  5u  TC=0,0 
+C_C3         N00380 M_UN0001  5u  TC=0,0 
+V_V1         N00718 0  
++SIN 0 10m 1k 0 0 0
+C_C4         0 N00343  10u  TC=0,0 
+V_V2         N00331 0 18
+** Floating/unmodeled pin fixups **
+R__UC0001   M_UN0001  0   {1/GMIN}
+
+**** RESUMING Sim.cir ****
+.END
+
+**** 09/27/22 01:14:05 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QbreakN         
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  100            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/27/22 01:14:05 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00331)   18.0000 (N00343)   10.3630 (N00380)   12.4780 (N00419)    9.5599     
+
+(N00533)    3.4422 (N00557)    4.2457 (N00718)    0.0000 (M_UN0001)    0.0000   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -4.191E-03
+
+    TOTAL POWER DISSIPATION   7.54E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/27/22 01:14:05 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Sim"  [ D:\NUST\Semester 5\Electronic Circuit Design\Labs\Lab 3\main-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .72
+  Total job time (using Solver 1)   =         .64
+
