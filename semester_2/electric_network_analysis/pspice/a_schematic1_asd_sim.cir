@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-asd"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\a-SCHEMATIC1-asd.sim ] 
+
+** Creating circuit file "a-SCHEMATIC1-asd.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 101 500 100k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\a-SCHEMATIC1.net" 
+
+
+.END

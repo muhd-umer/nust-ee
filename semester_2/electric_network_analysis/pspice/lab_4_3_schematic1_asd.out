@@ -1,0 +1,72 @@
+
+**** 03/31/21 13:25:50 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-ASD"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 4- 3-SCHEMATIC1-ASD.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 4- 3-SCHEMATIC1-ASD.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50m 0 0.005m 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab 4- 3-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING "lab 4- 3-SCHEMATIC1.net" ****
+* source LAB 4- 3
+R_R1         N00092 N00130  100  
+V_V1         N00092 0  
++SIN 0 2 60 0 0 0
+L_L1         N00130 0  10mH  
+
+**** RESUMING "lab 4- 3-SCHEMATIC1-ASD.sim.cir" ****
+.END
+
+**** 03/31/21 13:25:50 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-ASD"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 4- 3-SCHEMATIC1-ASD.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00092)    0.0000 (N00130)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .36
+

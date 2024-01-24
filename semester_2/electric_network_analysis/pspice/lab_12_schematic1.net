@@ -1,0 +1,4 @@
+* source LAB 12
+V_V1         N02207 0 DC 0Vdc AC 1Vac 
+C_C1         N02207 N02241  0.01u  
+R_R1         0 N02241  10k  

@@ -1,0 +1,42 @@
+
+**** 03/29/21 15:39:23 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-A"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 4-SCHEMATIC1-A.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 4-SCHEMATIC1-A.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50m 0 0.005m 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab 4-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING "lab 4-SCHEMATIC1.net" ****
+* source LAB 4
+R_R1         N00196 N00081  10k  
+C_C1         N00111 N00081  0.027u  
+V_V3         N00196 N00111  
++SIN 0 5 60 0 0 0
+
+**** RESUMING "lab 4-SCHEMATIC1-A.sim.cir" ****
+.END
+
+ERROR -- Node N00196 is floating
+ERROR -- Node N00081 is floating
+ERROR -- Node N00111 is floating

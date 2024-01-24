@@ -1,0 +1,71 @@
+
+**** 05/30/21 17:32:43 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-a"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 12 re-SCHEMATIC1-a.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 12 re-SCHEMATIC1-a.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 10k 10 10k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab 12 re-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING "lab 12 re-SCHEMATIC1.net" ****
+* source LAB 12 RE
+V_V1         N00086 0 DC 0Vdc AC 1Vac 
+C_C1         N00086 N00120  1u  
+R_R1         0 N00120  10k  
+
+**** RESUMING "lab 12 re-SCHEMATIC1-a.sim.cir" ****
+.END
+
+**** 05/30/21 17:32:43 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-a"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 12 re-SCHEMATIC1-a.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00086)    0.0000 (N00120)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .88
+

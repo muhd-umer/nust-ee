@@ -1,0 +1,4 @@
+* source A
+C_C1         N00092 N00127  1n  
+R_R1         0 N00127  1k  
+V_V2         N00092 0 DC 0Vdc AC 1Vac 

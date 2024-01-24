@@ -1,0 +1,41 @@
+
+**** 03/30/21 14:39:44 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-aA"  [ F:\NUST\Semester 2\Electric Network Analysis\PSpice\lab 4-2-schematic1-aa.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab 4-2-schematic1-aa.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50 m 0 0.005m 
+------------$
+ERROR -- Invalid number
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\lab 4-2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING "lab 4-2-SCHEMATIC1.net" ****
+* source LAB 4-2
+R_R1         N00093 N00131  10k  
+C_C1         0 N00131  0.027u  
+V_V1         N00093 0  
++SIN 0 5 60 0 0 0
+
+**** RESUMING "lab 4-2-schematic1-aa.sim.cir" ****
+.END
+
