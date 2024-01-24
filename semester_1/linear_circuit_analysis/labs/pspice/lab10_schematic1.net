@@ -1,0 +1,4 @@
+* source LAB10
+R_Rth         N00110 N00080  2.909k  
+R_RL         N00110 0  678k  
+V_V1         N00080 0 10V

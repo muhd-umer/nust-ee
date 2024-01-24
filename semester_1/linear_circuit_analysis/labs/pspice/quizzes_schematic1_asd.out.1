@@ -1,0 +1,43 @@
+
+**** 01/04/21 15:21:03 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-asd"  [ F:\NUST\Semester 1\Linear Circuit Analysis\Labs\PSpice\quizzes-SCHEMATIC1-asd.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "quizzes-SCHEMATIC1-asd.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\quizzes-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING quizzes-SCHEMATIC1.net ****
+* source QUIZZES
+R_R6         N00592 N00622  7k  
+V_V2         N00504 N00622 12
+R_R3         N00504 N00534  10k  
+R_R4         N00622 N00534  10k  
+R_R5         N00592 N00534  2k  
+
+**** RESUMING quizzes-SCHEMATIC1-asd.sim.cir ****
+.END
+
+ERROR -- Node N00592 is floating
+ERROR -- Node N00622 is floating
+ERROR -- Node N00504 is floating
+ERROR -- Node N00534 is floating

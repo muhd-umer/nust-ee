@@ -1,0 +1,49 @@
+
+**** 11/19/20 15:14:45 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-a"  [ F:\NUST\Semester 1\Linear Circuit Analysis\Labs\PSpice\a-SCHEMATIC1-a.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "a-SCHEMATIC1-a.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\a-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING a-SCHEMATIC1.net ****
+* source A
+V_V1         N00295 N00579 10
+V_V2         N00372 N00579 5
+V_V3         N00402 N00372 12
+R_R1         N00579 N00295  1k  
+R_R2         N00579 N00402  1k  
+R_R3         N00579 N00372  1k  
+R_R4         N00579 N00372  1k  
+R_R5         N00295 N00345  1k  
+R_R6         N00345 N00372  1k  
+R_R7         N00295 N00402  1k  
+
+**** RESUMING a-SCHEMATIC1-a.sim.cir ****
+.END
+
+ERROR -- Node N00295 is floating
+ERROR -- Node N00579 is floating
+ERROR -- Node N00372 is floating
+ERROR -- Node N00402 is floating
+ERROR -- Node N00345 is floating

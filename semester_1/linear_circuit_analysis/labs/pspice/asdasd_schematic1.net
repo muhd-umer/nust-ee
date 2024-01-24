@@ -1,0 +1,12 @@
+* source ASDASD
+R_R1         0 N00135  40  
+R_R2         N00983 N00295  10  
+R_R3         N00295 N00353  20  
+V_V1         0 N00353 30
+I_I1         0 N00135 DC 6  
+X_F1    N00135 N00983 0 N00295 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 4
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1

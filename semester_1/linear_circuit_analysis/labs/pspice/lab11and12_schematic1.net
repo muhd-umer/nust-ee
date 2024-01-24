@@ -1,0 +1,5 @@
+* source LAB11AND12
+R_R1         0 N00184  10k  
+V_V1         N00116 0  
++PULSE 0 10 0 10n 10n 20m 40m
+C_C1         N00116 N00184  1u  

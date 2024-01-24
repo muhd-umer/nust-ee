@@ -1,0 +1,11 @@
+* source SD
+R_R1         N00505 N00420  2  
+R_R2         N00301 N00318  7  
+I_I3         N00318 0 DC 1  
+V_V4         N00420 0 3
+X_H3    N00505 0 N00420 N00301 SCHEMATIC1_H3 
+
+.subckt SCHEMATIC1_H3 1 2 3 4  
+H_H3         3 4 VH_H3 3
+VH_H3         1 2 0V
+.ends SCHEMATIC1_H3

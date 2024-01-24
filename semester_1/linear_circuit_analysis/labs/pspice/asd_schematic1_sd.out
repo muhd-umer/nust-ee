@@ -1,0 +1,74 @@
+
+**** 01/03/21 15:50:15 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-sd"  [ F:\NUST\Semester 1\Linear Circuit Analysis\Labs\PSpice\asd-SCHEMATIC1-sd.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asd-SCHEMATIC1-sd.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\asd-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING asd-SCHEMATIC1.net ****
+* source ASD
+V_V1         N00277 0 10
+I_I1         0 N00367 DC 4  
+R_R1         N00277 N00307  5  
+R_R2         0 N00307  5  
+R_R3         0 N00337  5  
+R_R4         N00367 N00337  10  
+R_R5         N00367 0  5  
+
+**** RESUMING asd-SCHEMATIC1-sd.sim.cir ****
+.END
+
+**** 01/03/21 15:50:15 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-sd"  [ F:\NUST\Semester 1\Linear Circuit Analysis\Labs\PSpice\asd-SCHEMATIC1-sd.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00277)   10.0000 (N00307)    5.0000 (N00337)    5.0000 (N00367)   15.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.000E+00
+
+    TOTAL POWER DISSIPATION   1.00E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

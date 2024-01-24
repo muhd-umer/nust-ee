@@ -1,0 +1,45 @@
+
+**** 11/30/20 17:12:05 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-asd"  [ F:\NUST\Semester 1\Linear Circuit Analysis\Labs\PSpice\a123-SCHEMATIC1-asd.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "a123-SCHEMATIC1-asd.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\a123-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING a123-SCHEMATIC1.net ****
+* source A123
+V_V2         N02047 0 10.5
+R_R3         N00130 N00191  1.2k  
+R_R5         N02047 N02063  675.219  
+R_R4         0 N00130  470  
+R_R6         0 N02063  1.8k  
+R_R1         N00652 N00191  470  
+R_R6         N00130 N00652  1.8k  
+$
+ERROR -- Name "R_R6" is defined more than once
+R_R2         0 N00652  1.2k  
+V_V5         N00191 0 24
+
+**** RESUMING a123-SCHEMATIC1-asd.sim.cir ****
+.END
+
