@@ -1,0 +1,37 @@
+================================
+Installation Commands:
+================================
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+sudo apt install ros-humble-cartographer 
+sudo apt install ros-humble-cartographer-ros
+sudo apt install ros-humble-navigation2 
+sudo apt install ros-humble-nav2-bringup
+
+mkdir -p ~/turtlebot3_ws/src
+cd ~/turtlebot3_ws/src
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b humble-devel
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git -b humble-devel
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b humble-devel
+git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git -b humble-devel
+cd ~/turtlebot3_ws
+
+================================
+Simulation Commands:
+================================
+colcon build
+export TURTLEBOT3_MODEL=waffle
+source ~/turtlebot3_ws/install/setup.bash
+
+# Run only one of the following
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+ros2 run turtlebot3_teleop teleop_keyboard
+
+================================
+SDF Model Locations:
+================================
+/home/basic/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+
+/home/basic/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_waffle/model.sdf

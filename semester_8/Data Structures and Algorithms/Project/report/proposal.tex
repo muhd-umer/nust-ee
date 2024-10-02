@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[font=small,skip=4pt]{caption}
+\usepackage{chngcntr,tocloft}
+\usepackage{flafter}
+\usepackage{enumitem}
+\parindent 0pt
+
+\geometry{left=0.825in, right=0.825in, top=1in, bottom=1in}
+\renewcommand{\contentsname}{Contents}
+
+\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\contentsname}{Contents}
+
+\usepackage{enumitem}
+
+\usepackage{cleveref}
+\crefname{section}{\S}{\S\S}
+\Crefname{section}{\S}{\S\S}
+\crefname{subsection}{\S}{\S\S}
+\Crefname{subsection}{\S}{\S\S}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\begin{document}
+
+% Titlepage
+\newpage
+\begin{titlepage}
+    % \vspace{\fill} % add vertical space before content
+    \centering
+    \vspace*{2pt}
+    \huge{\textbf{CS250 $\mid$ Data Structures \& Algorithms}} \\
+    \huge{Project Proposal} \\ [0.75cm]
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{figs/nust.pdf}
+    \end{figure}
+    \vspace {0.75cm}
+    \Large{By} \\
+    \Large{\textbf{Muhammad Umer}\quad(CMS -- 345834)} \\
+    \Large{\textbf{Muhammad Ahmed Mohsin}\quad(CMS -- 333060)} \\
+    \Large{\textbf{Ali Subhan Butt}\quad(CMS -- 337505)} \\ [0.75cm]
+ 
+    \Large{Instructor} \\ 
+    \Large{\textbf{Prof. Bostan Khan}} \\ [0.75cm]
+    \Large{School of Electrical Engineering and Computer Science (SEECS) \\
+        National University of Sciences and Technology (NUST) \\
+        Islamabad, Pakistan} \\ [0.75 cm]
+    \Large{\today}
+    \vspace{\fill} % add vertical space after content
+\end{titlepage}
+
+% \tableofcontents
+
+\newpage
+\setcounter{page}{1}
+
+{\centering
+
+\begin{LARGE}
+\textbf{Power Consumption Optimization in IoT}
+\end{LARGE}
+
+\vspace{1em} % Add some vertical space after the title
+}
+
+\section{Abstract}
+This project aims to address the critical challenge of optimizing power consumption in Internet of Things (IoT) devices, particularly within electrical engineering applications. To achieve this goal, we propose the utilization of various techniques such as sleep scheduling, duty cycling, and energy-efficient routing protocols. Leveraging data structures, algorithms, and reinforcement learning methodologies, our approach seeks to significantly enhance the energy efficiency of IoT devices, thereby prolonging their battery life and reducing operational costs. Through a detailed exploration of these techniques and algorithms, this project aims to contribute to the advancement of sustainable IoT infrastructure.
+
+\section{Introduction}
+The pervasiveness of Internet of Things (IoT) devices has undeniably revolutionized numerous industries, including electrical engineering, by fostering seamless connectivity and data exchange. A recent study by McKinsey \&amp; Company predicts that by 2025, there will be up to 70 billion connected IoT devices in operation worldwide~\cite{McKinsey_IoT_2020}. This exponential growth signifies the transformative power of IoT, but it also presents a critical challenge: optimizing power consumption within these ever-growing networks~\cite{Al-Fuqaha_IoT_Survey_2015}.
+
+Unrestrained energy usage not only curtails the operational lifespan of individual devices but also translates to significant financial and environmental burdens. A report by the International Energy Agency (IEA) highlights that the Information and Communication Technology (ICT) sector, which includes IoT devices, is responsible for approximately 7\% of global electricity demand~\cite{IEA_Buildings_Report_2023}. This translates to not only rising electricity costs but also contributes to greenhouse gas emissions associated with electricity generation.
+
+In light of these concerns, this project embarks on a mission to develop innovative algorithms and methodologies specifically designed to mitigate power consumption in IoT devices. By achieving this goal, we aim to propel these technologies towards a future characterized by enhanced efficiency and sustainability.
+
+\section{Our Contributions}
+Our project delves into the critical challenge of power consumption in the realm of Internet of Things (IoT) devices. Through a multifaceted approach, we aim to make significant contributions to the field of IoT power optimization. Here's a detailed breakdown of our key areas of focus:
+
+\subsection{Algorithmic Power Management Strategies (Ref.~\cite{Al-Fuqaha_IoT_Survey_2015, Farahani_Survey_Green_IoT_2018})}
+
+We leverage the power of advanced algorithms and data structures to design efficient power management strategies for IoT devices. Techniques like:
+
+Sleep Scheduling: By meticulously scheduling periods of operation and low-power sleep states, we aim to minimize energy consumption during inactive phases of device operation. This approach extends the battery life of individual devices, leading to a more sustainable deployment~\cite{Akyildiz_Wireless_Sensor_Networks_2007}.
+Duty Cycling: This technique involves strategically activating and deactivating specific components of an IoT device based on their real-time usage. By minimizing unnecessary active periods, duty cycling significantly reduces overall energy consumption~\cite{Huang_Survey_Green_IoT_2014}.
+Through the effective implementation of these algorithms, we strive to optimize the power consumption profile of individual devices within the IoT network.
+
+\subsection{Dynamic Power Optimization with Reinforcement Learning (Ref.~\cite{Liu_Survey_RL_IoT_2020, Mohammadi_RL_Resource_Management_2020})}
+
+Beyond traditional algorithmic techniques, we explore the exciting potential of applying reinforcement learning (RL) for dynamic power optimization in IoT devices. RL algorithms enable devices to continuously learn and adapt their behavior based on real-time factors such as environmental conditions and user patterns. This approach offers several key advantages:
+\begin{itemize}
+    \item \textbf{Dynamic Adaptation}: RL empowers devices with the ability to dynamically adjust their power consumption strategies in response to fluctuating environmental demands or user behavior. This ensures efficient energy utilization even in scenarios characterized by constant change (e.g., varying network traffic, sensor readings, or user activity patterns).
+
+    \item \textbf{Real-Time Optimization}: The continuous learning and adaptation facilitated by RL paves the way for real-time power optimization. This approach leads to significant energy savings compared to static, pre-defined algorithms that cannot adapt to changing conditions. By continuously refining their strategies based on real-time feedback, RL-powered devices achieve a level of dynamic efficiency that surpasses traditional methods.
+\end{itemize}
+
+\subsection{Energy-Efficient Routing Protocols for IoT Networks}
+
+Our project extends its focus beyond individual devices by investigating the development of energy-efficient routing protocols specifically tailored for IoT networks. Traditional routing protocols often prioritize factors like latency or throughput, with less emphasis on energy consumption. This can lead to suboptimal network performance in terms of energy usage.  To address this challenge, we explore innovative routing protocols that:
+\begin{itemize}
+    \item \textbf{Prioritize Low-Power Paths}: These protocols take into account the energy consumption of network links during route selection. By intelligently directing data traffic through paths with lower energy footprints, these protocols strive to minimize overall network energy consumption.
+    \item \textbf{Balance Performance and Energy}: While prioritizing low-power paths, these protocols are designed to maintain acceptable network performance metrics such as latency and packet delivery rates.
+\end{itemize}
+
+Through the development of energy-efficient routing protocols, we aim to optimize energy utilization across the entire IoT network, complementing the power management strategies implemented on individual devices.
+
+
+
+\section{Methodology}
+Our project tackles the challenge of power consumption in IoT devices through a multifaceted methodological approach. This section delves deeper into the specific techniques we employ to achieve significant energy savings.
+
+\subsection{Sleep Scheduling for Conserving Idle Power (Ref.~\cite{Akyildiz_Wireless_Sensor_Networks_2007, Xing_Survey_Energy_Efficient_MAC_2010})}
+
+One crucial component of our methodology is sleep scheduling. In essence, we utilize algorithms that strategically transition devices between active and sleep states. During sleep states, devices significantly reduce their power consumption while remaining operational at a basic level. This approach allows us to:
+\begin{itemize}
+    \item \textbf{Minimize Idle Power Consumption}: By intelligently putting devices to sleep when they are not actively engaged in tasks, we minimize the wasted energy associated with idle periods. This significantly extends the operational lifespan of individual devices and reduces the overall energy footprint of the IoT network.
+
+    \item \textbf{Maintain Responsiveness}: While sleep states offer substantial energy savings, it's critical to ensure devices can transition back to active states quickly when required. Our sleep scheduling algorithms are designed to balance these competing goals, ensuring responsiveness for critical tasks.
+\end{itemize}
+
+\subsection{Duty Cycling for Component-Level Optimization}
+
+Another technique employed in our methodology is duty cycling. This approach involves strategically turning off specific components or functionalities of IoT devices when they are not actively in use. For instance, sensors may only need to transmit data periodically, allowing other components like GPS modules to remain inactive during those intervals. We develop algorithms that:
+
+\begin{itemize}
+    \item \textbf{Dynamic Duty Cycle Adjustment}: Our algorithms consider factors such as usage patterns and application requirements to determine the optimal duty cycle duration for each device component. This ensures a balance between maximizing energy savings and maintaining necessary functionality.
+
+    \item \textbf{Fine-Grained Control}: We aim to achieve fine-grained control over duty cycling, allowing us to deactivate specific functionalities within a component while keeping others operational. This level of granularity ensures efficient energy management without compromising device capabilities.
+\end{itemize}
+
+\subsection{Energy-Aware Routing Protocols for Network-Level Optimization}
+
+Our methodology extends beyond individual devices by focusing on optimizing energy consumption at the network level. We achieve this through the development of energy-aware routing protocols. Traditional routing protocols often prioritize factors like latency or throughput, neglecting the energy implications of data transmission.  To address this issue, we design routing protocols that:
+\begin{itemize}
+    \item \textbf{Energy-Efficient Path Selection}: These protocols prioritize paths with lower energy consumption when routing data packets through the network. By selecting routes that minimize transmission power, we strive to reduce the overall network energy footprint.  This may involve techniques like multi-hop routing or exploiting low-power communication channels.
+    \item \textbf{Dynamic Network Adaptation}: Network conditions can change dynamically, so our energy-aware routing protocols are designed to adapt accordingly. This ensures that energy-efficient paths are continuously re-evaluated and updated based on real-time network traffic and energy availability.
+\end{itemize}
+
+\subsection{Reinforcement Learning for Adaptive Power Management}
+
+Beyond these pre-defined algorithms, our methodology embraces the power of reinforcement learning (RL). RL allows IoT devices to learn and adapt their power management strategies dynamically based on real-time environmental conditions and usage patterns. This offers significant advantages:
+\begin{itemize}
+    \item \textbf{Continuous Learning and Adaptation}: Unlike static algorithms, RL enables devices to continuously learn from their experiences and adjust their power management strategies accordingly. This allows them to become more efficient over time, optimizing energy consumption in response to fluctuating network conditions and user behavior.
+
+    \item \textbf{Real-Time Optimization}: RL empowers devices to make real-time decisions about their power consumption based on the current state of the environment. This approach surpasses pre-defined algorithms that may not capture the nuances of dynamic scenarios.
+\end{itemize}
+
+By combining these techniques, our methodology aims to achieve a comprehensive approach to power optimization in IoT devices. This multifaceted approach not only addresses energy efficiency at the device level but also considers network-wide optimization and the ability to adapt to changing conditions.
+
+\section{Conclusion}
+In conclusion, this project addresses the critical need for power consumption optimization in IoT devices used in electrical engineering applications. By leveraging a combination of algorithmic techniques, including sleep scheduling, duty cycling, and energy-efficient routing protocols, alongside reinforcement learning methodologies, we aim to significantly enhance the energy efficiency of IoT deployments. Through rigorous experimentation and validation, we aspire to establish novel approaches for sustainable IoT infrastructure, fostering innovation and environmental stewardship in the field of electrical engineering.
+
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem{McKinsey_IoT_2020}
+McKinsey \&amp; Company, "The Internet of Things: What it means to you \&amp; how to prepare for it", McKinsey Global Institute, June 2020.
+
+\bibitem{Al-Fuqaha_IoT_Survey_2015}
+A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Ayyash, and H. Ibnouzid, "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications," IEEE Communications Surveys \&amp; Tutorials, vol. 17, no. 4, pp. 2347-2376, Dec. 2015.
+
+\bibitem{IEA_Buildings_Report_2023}
+International Energy Agency, "Global Status Report for Buildings and Construction - Towards a Zero-Emissions, Inclusive and Efficient Building and Construction Sector", IEA, Paris, France, September 2023.
+
+\bibitem{Farahani_Survey_Green_IoT_2018}
+B. Farahani, M. Asadi, M. Mousavi, and A. A. M. Sayyah, "Towards a Green Internet of Things (IoT): A Survey on Enabling Technologies," Sensors (Switzerland), vol. 18, no. 11, p. 3850, Nov. 2018.
+
+\bibitem{Akyildiz_Wireless_Sensor_Networks_2007}
+I. F. Akyildiz, W. Su, Y. Sankarasubramaniam, and E. Cayirci, "Wireless sensor networks: a survey," Computer Networks, vol. 38, no. 4, pp. 393-422, Mar. 20
+
+\bibitem{Liu_Survey_RL_IoT_2020}
+X. Liu, Y. Liu, Y. Zhang, S. Qin, L. Sun, and H. Wang, "A Survey on Machine Learning for IoT Network Management," in 2020 IEEE International Conference on Networking, Systems and Security (NSS), pp. 1-8, IEEE, 2020.
+
+\bibitem{Mohammadi_RL_Resource_Management_2020}
+M. Mohammadi, M. H. Amini, and V. Hajipour, "Reinforcement Learning for Resource Management in the Internet of Things," in 2020 International Conference on Advanced Science, Engineering and Technology (ICASET), pp. 1-5, IEEE, 2020.
+
+\end{thebibliography}
+
+
+\end{document}

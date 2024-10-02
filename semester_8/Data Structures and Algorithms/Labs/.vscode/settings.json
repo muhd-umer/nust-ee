@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.txt": "plaintext",
+        "ostream": "cpp"
+    }
+}
