@@ -14,7 +14,7 @@ The repository is well-organized, making it easy to locate specific course mater
 Here's a high-level overview of the repository's structure:
 
 ```powershell
-. nust-ee
+nust-ee
 ├── formats/
 ├── resources/
 ├── semester_1
@@ -60,12 +60,12 @@ Here's a high-level overview of the repository's structure:
 │   ├── machine_learning/
 │   ├── mobile_communications/
 │   └── project_management/
-├── semester_8
-│   ├── community_service_learning/
-│   ├── data_structures_and_algorithms/
-│   ├── entrepreneurship/
-│   ├── professional_ethics/
-│   └── robotics/
+└── semester_8
+    ├── community_service_learning
+    ├── data_structures_and_algorithms
+    ├── entrepreneurship
+    ├── professional_ethics
+    └── robotics
 ```
 
 ### Download
