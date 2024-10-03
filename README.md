@@ -6,7 +6,7 @@
 Welcome to `nust-ee` repository, a comprehensive collection of coursework materials from all semesters of the _Bachelor of Engineering_ program at the prestigious <a href="https://seecs.nust.edu.pk/">NUST School of Electrical Engineering and Computer Science (NUST-SEECS)</a>. This repository serves as an invaluable resource for current and future students, offering assistance with labs, assignments, and staying ahead in their classes.
 
 > [!NOTE]
-> This repository does not contain any textbooks or other copyrighted materials. Distributing such materials without the consent of authors or publishers is illegal. We strongly encourage students to purchase or legally access textbooks and materials recommended by their instructors.
+> `nust-ee` repository does not contain any textbooks or other copyrighted materials. Distributing such materials without the consent of authors or publishers is illegal. We strongly encourage students to purchase or legally access textbooks and materials recommended by their instructors.
 
 ### Layout
 The repository is well-organized, making it easy to locate specific course materials. Each semester's coursework is stored in a dedicated subdirectory, further divided into individual course folders. Within each course folder, you'll find relevant assignments, projects, presentations, and supplementary learning materials.
