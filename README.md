@@ -82,7 +82,7 @@ If you need to download a specific file or folder, you can use any of these hand
 - [GitZip](http://kinolien.github.io/gitzip) by [Kino Lien](https://github.com/KinoLien)
 
 ### Contributions
-We welcome contributions from fellow students and electrical engineering enthusiasts to expand the repository and enhance its value. If you have coursework materials from semesters not currently included, please consider submitting a pull request to integrate them into the repository. Your contributions will greatly benefit others in their learning journey.
+We welcome contributions from fellow students and electrical engineering enthusiasts to expand the repository and enhance its value. If you have coursework materials for courses not currently included, please consider submitting a pull request to integrate them into the repository. Your contributions will greatly benefit others in their learning journey.
 
 ### Acknowledgements
 We extend our heartfelt gratitude to the instructors and professors at NUST-SEECS for their invaluable guidance and mentorship throughout our academic journey. Their expertise and dedication have been instrumental in shaping our understanding of electrical engineering principles.
