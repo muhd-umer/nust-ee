@@ -61,11 +61,11 @@ nust-ee
 │   ├── mobile_communications/
 │   └── project_management/
 └── semester_8
-    ├── community_service_learning
-    ├── data_structures_and_algorithms
-    ├── entrepreneurship
-    ├── professional_ethics
-    └── robotics
+    ├── community_service_learning/
+    ├── data_structures_and_algorithms/
+    ├── entrepreneurship/
+    ├── professional_ethics/
+    └── robotics/
 ```
 
 ### Download
